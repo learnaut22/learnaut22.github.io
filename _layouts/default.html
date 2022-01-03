@@ -1,0 +1,42 @@
+---
+pages:
+- name: home
+  id: index
+- name: invited speakers
+  id: speakers
+- name: programme
+  id: programme
+- name: calls
+  id: calls
+- name: committees
+  id: committees
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>LearnAut 2022 {% if page.title != null %}— {{ page.title }}{% endif %}</title>
+
+        <link rel="stylesheet" href="style/main.css" />
+        {% if page.style %}
+        <link rel="stylesheet" href="style/{{ page.id }}.css" />
+        {% endif %}
+
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">LearnAut 2022</a></h1>
+        </header>
+        <nav>
+        {% for link in layout.pages %}
+            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
+        {% endfor %}
+        </nav>
+        <section id="content">
+{{ content }}
+        </section>
+        <footer>
+        Photo "Eiffel Tower Outlook" by <a href="https://pixabay.com/photos/eiffel-tower-outlook-paris-view-2432250/">WolreChris</a>.
+        </footer>
+    </body>
+</html>

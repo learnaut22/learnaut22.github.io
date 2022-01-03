@@ -1,0 +1,41 @@
+---
+id: calls
+layout: default
+style: true
+---
+<h2>Call for papers</h2>
+<p>
+    Text goes here.
+</p>
+
+<div id="specifics">
+    <div>
+        <div id="topics">
+            <h3>Topics of interest</h3>
+            <p>
+                <ul>
+                    <li>List of topics goes here.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div>
+            <div id="instructions">
+                <h3>Submission instructions</h3>
+                <p>
+                    Submission instructions go here.
+                </p>
+            </div>
+
+            <div id="dates">
+                <h3>Important dates</h3>
+                <ul>
+                    {% for date in site.data.dates %}
+                    <li>{{ date.name }}: {{ date.value }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
