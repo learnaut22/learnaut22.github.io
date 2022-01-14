@@ -3,9 +3,12 @@ layout: default
 id: programme
 style: true
 ---
+{% if site.data.speakers %}
+{% comment %}
 <div class="notice">
     This is where we can place a notice to participants if need be.
 </div>
+{% endcomment %}
 <table>
     <tbody>
         {% for item in site.data.programme %}
@@ -38,3 +41,6 @@ style: true
         {% endfor %}
     </tbody>
 </table>
+{% else %}
+<p>TBD.</p>
+{% endif %}

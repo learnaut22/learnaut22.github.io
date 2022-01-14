@@ -3,6 +3,7 @@ layout: default
 id: speakers
 style: true
 ---
+{% if site.data.speakers %}
 {%- for item in site.data.speakers %}
 {%- assign key = item[0] -%}
 {%- assign speaker = item[1] %}
@@ -18,3 +19,6 @@ style: true
     <p>{{ speaker.bio }}</p>
 </div>
 {% endfor %}
+{% else %}
+<p>TBD.</p>
+{% endif %}
