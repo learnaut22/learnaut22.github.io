@@ -1,0 +1,10 @@
+jeffrey:
+  name: Jeffrey Heinz
+  affiliation: Stony Brook University
+  website: http://jeffreyheinz.net/
+  photo: jeffrey.jpg
+  bio: >
+     Jeffrey Heinz is a Professor at Stony Brook Univesity with a joint appointment in the Department of Linguistics and the Instittute of Advanced Computational Science.
+     He conducts research in several related areas including theoretical, computational and mathematical linguistics, grammatical inference, computational learning theory, theoretical computer science, robotic planning and control, and artificial intelligence.
+     His research focuses on characterizations of subclasses of regular languages and transductions, algorithms for learning those subclasses, and what those subclasses mean for patterns in language and the "real" world.
+     His research has been published in the Journal of Language Modelling, Linguistic Inquiry, Theoretical Computer Science, the Transactions of the ACL, and Science.
