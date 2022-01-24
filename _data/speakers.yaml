@@ -8,3 +8,15 @@ jeffrey:
      He conducts research in several related areas including theoretical, computational and mathematical linguistics, grammatical inference, computational learning theory, theoretical computer science, robotic planning and control, and artificial intelligence.
      His research focuses on characterizations of subclasses of regular languages and transductions, algorithms for learning those subclasses, and what those subclasses mean for patterns in language and the "real" world.
      His research has been published in the Journal of Language Modelling, Linguistic Inquiry, Theoretical Computer Science, the Transactions of the ACL, and Science.
+ariadna:
+  name: Ariadna Quattoni
+  affiliation: Universitat Politècnica de Catalunya
+  website: https://www.cs.upc.edu/~aquattoni/
+  photo: ariadna.jpg
+  bio: >
+     Ariadna Quattoni is a senior researcher at the Computer Science Department of the UPC.
+     Currently, she is leading an ERC funded project: INTERACT, which focuses on developing interactive machine learning algorithms motivated by applications in natural language understanding.
+     She received her PhD in Computer Science from MIT in 2009 and has worked as a research scientist at Xerox Research Centre Europe.
+     She has also co-founded dMetrics, a machine learning and natural language processing company that has received multiple NSF awards and serves major clients in both the private and public sector.
+     Her main research interests include latent variable models for structured prediction and spectral learning techniques for weighted non-deterministic automata and grammars and most recently interactive and collaborative machine learning.
+     She has co-authored over 40 research articles on machine learning, natural language processing and computer vision.
