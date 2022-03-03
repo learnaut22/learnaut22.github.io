@@ -8,6 +8,17 @@ jeffrey:
      He conducts research in several related areas including theoretical, computational and mathematical linguistics, grammatical inference, computational learning theory, theoretical computer science, robotic planning and control, and artificial intelligence.
      His research focuses on characterizations of subclasses of regular languages and transductions, algorithms for learning those subclasses, and what those subclasses mean for patterns in language and the "real" world.
      His research has been published in the Journal of Language Modelling, Linguistic Inquiry, Theoretical Computer Science, the Transactions of the ACL, and Science.
+sheila:
+  name: Sheila McIlraith
+  affiliation: University of Toronto
+  website: https://www.cs.toronto.edu/~sheila/
+  photo: sheila.jpg
+  bio: >
+    Sheila McIlraith is a Professor in the Department of Computer Science at the University of Toronto, a Canada CIFAR AI Chair (Vector Institute), and an Associate Director and Research Lead at the Schwartz Reisman Institute for Technology and Society.
+    McIlraith's research is in the area of AI sequential decision making broadly construed, with a focus on human-compatible AI.
+    Over the last 15 years, she and her students have done extensive work exploiting LTL, regular languages, and in turn automata to represent temporally extended goals and preferences for AI automated symbolic planning.
+    More recently they have leveraged similar correspondences to specify or learn reward functions for reinforcement learning, together with algorithms that exploit function structure to reduce sample complexity.
+    McIlraith is a Fellow of the ACM and the Association for the Advancement of Artificial Intelligence (AAAI).
 ariadna:
   name: Ariadna Quattoni
   affiliation: Universitat Politècnica de Catalunya
