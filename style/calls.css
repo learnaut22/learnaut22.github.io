@@ -29,3 +29,7 @@
 #dates > h3 {
     margin-top: 0;
 }
+
+.struck {
+    text-decoration: line-through;
+}

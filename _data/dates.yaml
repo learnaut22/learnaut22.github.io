@@ -1,7 +1,7 @@
 - name: Submission deadline
-  value: March 31st
-- name: Notification of acceptance
-  value: April 30th
+  value: <span class="struck">March 31st</span> <strong>April 7th</strong>
+- name: Notification
+  value: <span class="struck">April 30th</span> <strong>May 5th</strong>
 - name: Early registration
   value: TBD
 - name: Workshop
