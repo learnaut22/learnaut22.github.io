@@ -3,6 +3,6 @@
 - name: Notification
   value: <span class="struck">April 30th</span> <strong>May 5th</strong>
 - name: Early registration
-  value: TBD
+  value: <span class="struck">May 11th</span> <strong>May 18th</strong>
 - name: Workshop
   value: July 4th
