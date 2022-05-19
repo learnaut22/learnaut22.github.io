@@ -1,0 +1,28 @@
+- title: Learning state machines via efficient hashing of future traces
+  authors: [Robert Baumgartner, Sicco Verwer]
+- title: Towards Efficient Active Learning of PDFA
+  authors: [Franz Mayr, Sergio Yovine, Federico Pan, Nicolas Basset, Thao Dang]
+- title: An Algebraic Approach to Learning and Grounding
+  authors: [Johanna Björklund, Adam Dahlgren Lindström, Frank Drewes]
+- title: 'Spectral Regularization: an Inductive Bias for Sequence Modeling'
+  authors: [Kaiwen Hou, Guillaume Rabusseau]
+- title: Marginal Inference queries in Hidden Markov Models under context-free grammar constraints
+  authors: [Mohamed Reda Marzouk, Colin de la Higuera]
+- title: Robust Attack Graph Generation
+  authors: [Dennis Mouwen, Sicco Verwer, Azqa Nadeem]
+- title: Analyzing Büchi Automata with Graph Neural Networks
+  authors: [Christophe Stammet, Prisca Dotti, Ulrich Ultes-Nitsche, Andreas Fischer]
+- title: 'Spectral Initialization of Recurrent Neural Networks: Proof of Concept'
+  authors: [Maude Lizaire, Simon Verret, Guillaume Rabusseau]
+- title: Sequential Density Estimation via Nonlinear Continuous Weighted Finite Automata
+  authors: [Tianyu Li, Bogdan Mazoure, Guillaume Rabusseau]
+- title: Extending Shinohara's Algorithm for Computing Descriptive (Angluin-Style) Patterns to Subsequence Patterns
+  authors: [Markus L. Schmid]
+- title: Towards an AAK Theory Approach to Approximate Minimization in the Multi-Letter Case
+  authors: [Clara Lacroce, Prakash Panangaden, Guillaume Rabusseau]
+- title: On the limit of gradient decent for Simple Recurrent Neural Networks with finite precision
+  authors: [Rémi Eyraud, Volodimir Mitarchuk]
+- title: Learning regular non-deterministic distributions via non-linear optimization methods
+  authors: [Wenjing Chu, Shuo Chen, Marcello Bonsangue]
+- title: 'Learning from Positive and Negative Examples: New Proof for Binary Alphabets'
+  authors: [Jonas Lingg, Mateus de Oliveira Oliveira, Petra Wolf]
