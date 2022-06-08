@@ -1,0 +1,186 @@
+- start: '9:00'
+  type: 'organisation'
+  title: 'Registration'
+- start: '9:25'
+  type: 'organisation'
+  title: 'Opening remarks'
+- start: '9:30'
+  type: 'invited'
+  title: "Exploiting Hankel Matrices for Diversity Sampling with Small Annotation Budgets"
+  speaker: 'ariadna'
+  abstract: |
+    In this talk I will address the annotation data bottleneck in the context of sequence modeling.
+    I will attempt to answer the question: if one has a budget of N annotations, which samples should we select for annotation? I will discuss an approach that is based on searching for diversity in the selected sample, by maximizing the amount of information that is useful for the learning algorithm, or equivalently by minimizing the redundancy of samples in the selection.
+    I will  formulate this in the context of spectral learning of Weighted Automata for sequence classification.
+    I will show how we can represent unlabeled data using a Hankel matrix, and exploit the notion of spectral max-volume to find a compact sub-block from which annotation samples are drawn.
+    I will show experiments on sequence classification that confirm that the spectral sampling strategy is efficient and yields good models.
+- start: '10:15'
+  type: 'online'
+  title: "Extending Shinohara's Algorithm for Computing Descriptive (Angluin-Style) Patterns to Subsequence Patterns"
+  authors: 'Markus L. Schmid'
+  abstract: |
+    The introduction of pattern languages in the seminal work [Angluin, "Finding Patterns Common to a Set of Strings", JCSS 1980] has revived the classical model of inductive inference (learning in the limit, gold-style learning).
+    In [Shinohara, "Polynomial Time Inference of Pattern Languages and Its Application", 7th IBM Symposium on Mathematical Foundations of Computer Science 1982] a simple and elegant algorithm has been introduced that, based on membership queries, computes a pattern that is descriptive for a given sample of input strings (and, consequently, can be employed in strategies for inductive inference).
+    In this paper, we give a brief survey of the recent work [Kleest-Meißner et al., "Discovering Event Queries from Traces: Laying Foundations for Subsequence-Queries with Wildcards and Gap-Size Constraints", ICDT 2022], where the classical concepts of Angluin-style (descriptive) patterns and the respective Shinohara's algorithm are extended to a query class with applications in complex event recognition - a modern topic from databases.
+- start: '10:35'
+  title: 'Coffee break'
+  type: 'break'
+- start: '11:00'
+  type: 'in-person'
+  title: 'On the limit of gradient descent for Simple Recurrent Neural Networks with finite precision'
+  authors: 'Rémi Eyraud and Volodimir Mitarchuk'
+  abstract: |
+    Despite their great practical successes, the understanding of neural network behavior is a topical research issue.
+    In particular, the class of functions learnable in the context of a finite precision configuration is an open question.
+    In this paper, we propose to study the limits of gradient descent when such a configuration is set for the class of Simple Recurrent Networks.
+    We exhibit conditions under with the gradient descend will provably fail and argue that these conditions correspond to classical experimental setup.
+    We also design a class of SRN based on finite state automata that fulfills the failure requirements.
+- start: '11:20'
+  type: 'in-person'
+  title: 'Analyzing Büchi Automata with Graph Neural Networks'
+  authors: 'Christophe Stammet, Prisca Dotti, Ulrich Ultes-Nitsche and Andreas Fischer '
+  abstract: |
+    Büchi Automata on infinite words present many interesting problems and are used frequently in program verification and model checking.
+    A lot of these problems on Büchi automata are computationally hard, raising the question if a learning-based data-driven analysis might be more efficient than using traditional algorithms.
+    Since Büchi automata can be represented by graphs, graph neural networks are a natural choice for such a learning-based analysis.
+    In this paper, we demonstrate how graph neural networks can be used to reliably predict basic properties of Büchi automata when trained on automatically generated random automata datasets.
+- start: '11:40'
+  type: 'in-person'
+  title: 'Spectral Initialization of Recurrent Neural Networks: Proof of Concept'
+  authors: 'Maude Lizaire, Simon Verret and Guillaume Rabusseau'
+  abstract: |
+    We propose a new initialization method for recurrent neural networks in the context of language modelling based on their connection with weighted finite automata.
+    In particular, we leverage that linear second order RNN and WFA are equivalent and that WFA can be learned consistently with the spectral learning algorithm.
+    The spectral initialization consists in setting the weights of the RNN with the spectral solution of the corresponding WFA, then letting these parameters be optimized by gradient descent.
+    As a proof of concept, we tested the spectral initialization on synthetic datasets from the PautomAC competition showing the approach outperforms random initializations even with less training data and independently of the model capacity or characteristics of the datasets (alphabet size, type and number of states of the generating machine).
+- start: '12:00'
+  type: 'in-person'
+  title: 'Robust Attack Graph Generation'
+  authors: 'Dennis Mouwen, Sicco Verwer and Azqa Nadeem'
+  abstract: |
+    We present a method to learn automaton models that are more robust to input modifications.
+    It iteratively aligns sequences to a learned model, modifies the sequences to their aligned versions, and re-learns the model.
+    Automaton learning algorithms are typically very good at modeling the frequent behavior of a software system.
+    Our solution can be used to also learn the behavior present in infrequent sequences, as these will be aligned to the frequent ones represented by the model.
+    We apply our method to the SAGE tool for modeling attacker behavior from intrusion alerts.
+    In experiments, we demonstrate that our algorithm learns models that can handle noise such as added and removed symbols from sequences.
+    Furthermore, it learns more concise models that fit better to the training data.
+- start: '12:20'
+  type: 'in-person'
+  title: 'Learning regular non-deterministic distributions via non-linear optimization methods'
+  authors: 'Wenjing Chu, Shuo Chen and Marcello Bonsangue'
+  abstract: |
+    Probabilistic finite automata (PFA) are recognizers of regular distributions over finite strings, a model that is widely applied in speech recognition and biological systems, for example.
+    While the underlying structure of a PFA is just that of a normal automaton, it is well known that PFA with a non-deterministic underlying structure is more powerful than a deterministic one.
+    In this paper, we concentrate on passive learning non-deterministic PFA from examples and counterexamples using a two steps procedure: first we learn the underlying structure using an algorithm for learning residual finite state automata (RFSA), and then we learn the probabilities of states and transitions using three different optimization methods.
+    We experimentally show with a set of randomly generated probabilistic finite automata that the ones learned using RFSA combined with genetic algorithm outperform other existing methods greatly improving the distance to the automaton to be learned.
+- start: '12:40'
+  type: 'break'
+  title: 'Lunch'
+- start: '14:00'
+  type: 'invited'
+  title: 'TBA'
+  speaker: 'jeffrey'
+- start: '14:45'
+  type: 'in-person'
+  title: 'Learning from Positive and Negative Examples: New Proof for Binary Alphabets'
+  authors: 'Jonas Lingg, Mateus de Oliveira Oliveira and Petra Wolf'
+  abstract: |
+    One of the most fundamental problems in computational learning theory is the the problem of learning a finite automaton <em>A</em> consistent with a finite set <em>P</em> of positive examples and with a finite set <em>N</em> of negative examples.
+    By consistency, we mean that <em>A</em> accepts all strings in <em>P</em> and rejects all strings in <em>N</em>.
+    It is well known that this problem is NP-complete.
+    In the literature, it is stated that this NP-hardness holds even in the case of a binary alphabet.
+    As a standard reference for this theorem, the work of Gold from 1978 is either cited or adapted.
+    But as a crucial detail, the work of Gold actually considered Mealy machines and not deterministic finite state automata (DFAs) as they are considered nowadays.
+    As Mealy automata are equipped with an output function, they can be more compact than DFAs which accept the same language.
+    We show that this details prevents the adaption of Gold's construction for Mealy machines stated in the literature to work in the setting of DFAs.
+    On the other hand, we give a new construction for DFAs with a binary alphabet, that uses an approach independent from Gold's construction.
+- start: '15:05'
+  type: 'in-person'
+  title: 'Towards an AAK Theory Approach to Approximate Minimization in the Multi-Letter Case'
+  authors: 'Clara Lacroce, Prakash Panangaden and Guillaume Rabusseau'
+  abstract: |
+    We study the approximate minimization problem of weighted finite automata (WFAs): given a WFA, we want to compute its optimal approximation when restricted to a given size.
+    We reformulate the problem as a rank-minimization task in the spectral norm, and propose a framework to apply Adamyan-Arov-Krein (AAK) theory to the approximation problem.
+    This approach has already been successfully applied to the case of WFAs and language modelling black boxes over one-letter alphabets (Balle et al. 2021, Lacroce et al. 2021).
+    Extending the result to multi-letter alphabets requires solving the following two steps.
+    First, we need to reformulate the approximation problem in terms of noncommutative Hankel operators and noncommutative functions, in order to apply results from multivariable operator theory.
+    Secondly, to obtain the optimal approximation we need a version of noncommutative AAK theory that is constructive.
+    In this paper, we successfully tackle the first step, while the second challenge remains open.
+- start: '15:25'
+  type: 'online'
+  title: 'An Algebraic Approach to Learning and Grounding'
+  authors: 'Johanna Björklund, Adam Dahlgren Lindström and Frank Drewes'
+  abstract: |
+    We consider the problem of learning the semantics of composite algebraic expressions from examples.
+    The outcome is a versatile framework for studying learning tasks that can be put into the following abstract form: The input is a partial algebra A and a finite set of samples (φ1, O1), (φ2, O2), ..., each consisting of an algebraic term φi and a set of objects Oi.
+    The objective is to simultaneously fill in the missing algebraic operations in A and ground the variables of every φi in Oi, so that the combined value of the terms is optimised.
+    We demonstrate the applicability of this framework through case studies in grammatical inference, picture-language learning, and the grounding of logic scene descriptions.
+- start: '15:35'
+  type: 'break'
+  title: 'Coffee break'
+- start: '16:00'
+  type: 'invited'
+  title: 'TBA'
+  speaker: 'sheila'
+- start: '16:45'
+  type: 'in-person'
+  title: 'Learning state machines via efficient hashing of future traces'
+  authors: 'Robert Baumgartner and Sicco Verwer'
+  abstract: |
+    State machines are popular models to model and visualize discrete systems such as software systems, and to represent regular grammars.
+    Most algorithms that passively learn state machines from data assume all the data to be available from the beginning and they load this data into memory.
+    This makes it hard to apply them to continuously streaming data and results in large memory requirements when dealing with large datasets.
+    In this paper we propose a method to learn state machines from data streams using the count-min-sketch data structure to reduce memory requirements.
+    We apply state merging using the well-known red-blue-framework to reduce the search space.
+    We implemented our approach in an established framework for learning state machines, and evaluated it on a well know dataset to provide experimental data, showing the effectiveness of our approach with respect to quality of the results and run-time.
+- start: '17:05'
+  type: 'in-person'
+  title: 'Marginal Inference queries in Hidden Markov Models under context-free grammar constraints'
+  authors: 'Mohamed Reda Marzouk and Colin de la Higuera'
+  abstract: |
+    The primary use of any probabilistic model involving a set of random variables is to run inference and sampling queries on it.
+    Inference queries in classical probabilistic models is concerned by the computation of marginal or conditional probabilities of events given as an input.
+    When the probabilistic model is sequential, more sophisticated marginal inference queries involving complex grammars may be of interest in fields such as computational linguistics and NLP.
+    In this work, we address the question of computing the likelihood of context-free grammars (CFGs) in Hidden Markov Models (HMMs).
+    We provide a dynamic algorithm for the exact computation of the likelihood for the class of unambiguous context-free grammars.
+    We show that the problem is NP-Hard, even with the promise that the input CFG has a degree of ambiguity less or equal to 2.
+    We then propose a fully polynomial randomized approximation scheme (FPRAS) algorithm to approximate the likelihood for the case of polynomially-bounded ambiguous CFGs.
+- start: '17:25'
+  type: 'online'
+  title: 'Spectral Regularization: an Inductive Bias for Sequence Modeling'
+  authors: 'Kaiwen Hou and Guillaume Rabusseau'
+  abstract: |
+    Various forms of regularization in learning tasks strive for different notions of simplicity.
+    This paper presents a spectral regularization technique, which attaches a unique inductive bias to sequence modeling based on an intuitive concept of simplicity defined in the Chomsky hierarchy.
+    From fundamental connections between Hankel matrices and regular grammars, we propose to use the trace norm of the Hankel matrix, the tightest convex relaxation of its rank, as the spectral regularizer.
+    To cope with the fact that the Hankel matrix is bi-infinite, we propose an unbiased stochastic estimator for its trace norm.
+    Ultimately, we demonstrate experimental results on Tomita grammars, which exhibit the potential benefits of spectral regularization and validate the proposed stochastic estimator.
+- start: '17:35'
+  type: 'online'
+  title: 'Sequential Density Estimation via Nonlinear Continuous Weighted Finite Automata'
+  authors: 'Tianyu Li, Bogdan Mazoure and Guillaume Rabusseau'
+  abstract: |
+    Weighted finite automata (WFAs) have been widely applied in many fields.
+    One of the classic problems for WFAs is probability distribution estimation over sequences of discrete symbols.
+    Although WFAs have been extended to deal with continuous input data, namely continuous WFAs (CWFAs), it is still unclear how to approximate density functions over sequences of continuous random variables using WFA-based models, due to the limitation on the expressiveness of the model as well as the tractability of approximating density functions via CWFAs.
+    In this paper, we propose a nonlinear extension to the CWFA model to first improve its expressiveness, we refer to it as the nonlinear continuous WFAs (NCWFAs).
+    Then we leverage the so-called RNADE method, which is a well-known density estimator based on neural networks, and propose the RNADE-NCWFA model.
+    The RNADE-NCWFA model computes a density function by design.
+    We show that this model is strictly more expressive than the Gaussian HMM model, which CWFA cannot approximate.
+    Empirically, we conduct a synthetic experiment using Gaussian HMM generated data.
+    We focus on evaluating the model's ability to estimate densities for sequences of varying lengths (longer length than the training data).
+    We observe that our model performs the best among the compared baseline methods.
+- start: '17:45'
+  type: 'online'
+  title: 'Towards Efficient Active Learning of PDFA'
+  authors: 'Franz Mayr, Sergio Yovine, Federico Pan, Nicolas Basset and Thao Dang'
+  abstract: |
+    We propose a new active learning algorithm for PDFA based on three main aspects: a congruence over states which takes into account next-symbol probability distributions, a quantization that copes with differences in distributions, and an efficient tree-based data structure.
+    Experiments showed significant performance gains with respect to reference implementations.
+- start: '18:05'
+  type: 'organisation'
+  title: 'Closing remarks'
+- start: '18:10'
+  type: 'organisation'
+  title: 'Workshop ends'
