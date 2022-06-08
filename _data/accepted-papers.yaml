@@ -20,7 +20,7 @@
   authors: [Markus L. Schmid]
 - title: Towards an AAK Theory Approach to Approximate Minimization in the Multi-Letter Case
   authors: [Clara Lacroce, Prakash Panangaden, Guillaume Rabusseau]
-- title: On the limit of gradient decent for Simple Recurrent Neural Networks with finite precision
+- title: On the limit of gradient descent for Simple Recurrent Neural Networks with finite precision
   authors: [Rémi Eyraud, Volodimir Mitarchuk]
 - title: Learning regular non-deterministic distributions via non-linear optimization methods
   authors: [Wenjing Chu, Shuo Chen, Marcello Bonsangue]
