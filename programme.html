@@ -19,15 +19,15 @@ style: true
                 <span class="type">Invited lecture:</span>
                 {% endif %}
                 <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %}(<a href={{ item.link }}>link to paper</a>){% endif %}
-                {% if item.type == 'invited' or item.type == 'contributed' %}
+                {% if item.type == 'invited' or item.type == 'online' or item.type == 'in-person' %}
                 <div class="speaker">
                 {% if item.type == 'invited' %}
                 <a href="speakers.html#{{ item.speaker }}">
                 ({{ site.data.speakers[item.speaker].name }})
                 </a>
                 {% endif %}
-                {% if item.type == 'contributed' %}
-                ({{ item.speaker }})
+                {% if item.type == 'online' or item.type == 'in-person' %}
+                ({{ item.authors }})
                 {% endif %}
                 </div>
                 {% if item.abstract %}
