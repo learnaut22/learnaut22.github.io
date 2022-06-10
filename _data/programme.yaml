@@ -79,8 +79,29 @@
   title: 'Lunch'
 - start: '14:00'
   type: 'invited'
-  title: 'TBA'
-  speaker: 'jeffrey'
+  title: 'A Benchmark for the Machine Learning of Regular Languages'
+  abstract: |
+    <p>
+      This talk presents a new benchmark for machine learning systems on sequence classification.
+      It contains training, development, and test sets from 1980 regular languages from many distinct well-understood subregular language classes in terms of their logical and algebraic structure, providing the most comprehensive, systematic suite of regular languages we are aware of.
+      For each language, we present three nested training set sizes, and four distinct test sets.
+    </p>
+    <p>
+      This benchmark was constructed for two reasons.
+      First, testing machine learning systems on artificial data sets allow for controlled experiments.
+      For example in our setting, we consider variables such as alphabet size, minimal dfa size, model signature, and logical complexity to help understand the learning capabilities and limitations of ML systems on learning patterns over sequences.
+      Second, previous artificial regular language benchmarks unevenly represented different kinds of regular languages.
+    </p>
+    <p>
+      We also examine the performance of different neural networks on this benchmark.
+      We draw many conclusions but here are some highlights.
+      One, across the board, neural networks have difficulty learning periodic regular languages; i.e those that require monadic second order logic.
+      Two, they generally perform worse classifying a string x for which there exists a string y such that x∈L iff y∉L and the string edit distance of x and y equals 1.
+      We refer to such pairs of strings as forming the "border" of the language.
+      Third, neither the size of the minimal dfa nor the size of its syntactic monoid correlate with neural network performance.
+      Fourth, neural networks generally perform worse on classifying strings on languages defined in terms of propositional logic with precedence as opposed to propositional logic with successor.
+    </p>
+  speaker: 'jeff'
 - start: '14:45'
   type: 'in-person'
   title: 'Learning from Positive and Negative Examples: New Proof for Binary Alphabets'
