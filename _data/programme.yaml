@@ -132,6 +132,7 @@
   type: 'online'
   title: 'An Algebraic Approach to Learning and Grounding'
   authors: 'Johanna Björklund, Adam Dahlgren Lindström and Frank Drewes'
+  link: 'https://arxiv.org/abs/2204.02813'
   abstract: |
     We consider the problem of learning the semantics of composite algebraic expressions from examples.
     The outcome is a versatile framework for studying learning tasks that can be put into the following abstract form: The input is a partial algebra A and a finite set of samples (φ1, O1), (φ2, O2), ..., each consisting of an algebraic term φi and a set of objects Oi.
