@@ -206,6 +206,7 @@
   type: 'online'
   title: 'Towards Efficient Active Learning of PDFA'
   authors: 'Franz Mayr, Sergio Yovine, Federico Pan, Nicolas Basset and Thao Dang'
+  link: 'https://drive.google.com/file/d/1-cZsaTLQAJsuLAWEPDnvSRg10pJ1fBFF/view?usp=sharing'
   abstract: |
     We propose a new active learning algorithm for PDFA based on three main aspects: a congruence over states which takes into account next-symbol probability distributions, a quantization that copes with differences in distributions, and an efficient tree-based data structure.
     Experiments showed significant performance gains with respect to reference implementations.
