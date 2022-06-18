@@ -18,7 +18,7 @@ style: true
                 {% if item.type == 'invited' %}
                 <span class="type">Invited lecture:</span>
                 {% endif %}
-                <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %}(<a href={{ item.link }}>link to paper</a>){% endif %}
+                <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %}<span class="paper-link">(<a href={{ item.link }}>link to paper</a>)</span>{% endif %}
                 {% if item.type == 'invited' or item.type == 'online' or item.type == 'in-person' %}
                 <div class="speaker">
                 {% if item.type == 'invited' %}
