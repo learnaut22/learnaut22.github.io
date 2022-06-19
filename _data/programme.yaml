@@ -120,6 +120,7 @@
   type: 'in-person'
   title: 'Towards an AAK Theory Approach to Approximate Minimization in the Multi-Letter Case'
   authors: 'Clara Lacroce, Prakash Panangaden and Guillaume Rabusseau'
+  link: 'https://arxiv.org/abs/2206.00172'
   abstract: |
     We study the approximate minimization problem of weighted finite automata (WFAs): given a WFA, we want to compute its optimal approximation when restricted to a given size.
     We reformulate the problem as a rank-minimization task in the spectral norm, and propose a framework to apply Adamyan-Arov-Krein (AAK) theory to the approximation problem.
@@ -181,6 +182,7 @@
   type: 'online'
   title: 'Spectral Regularization: an Inductive Bias for Sequence Modeling'
   authors: 'Kaiwen Hou and Guillaume Rabusseau'
+  link: 'https://www-labs.iro.umontreal.ca/~grabus/files/learnaut_specreg.pdf'
   abstract: |
     Various forms of regularization in learning tasks strive for different notions of simplicity.
     This paper presents a spectral regularization technique, which attaches a unique inductive bias to sequence modeling based on an intuitive concept of simplicity defined in the Chomsky hierarchy.
@@ -191,6 +193,7 @@
   type: 'online'
   title: 'Sequential Density Estimation via Nonlinear Continuous Weighted Finite Automata'
   authors: 'Tianyu Li, Bogdan Mazoure and Guillaume Rabusseau'
+  link: 'https://arxiv.org/abs/2206.03923'
   abstract: |
     Weighted finite automata (WFAs) have been widely applied in many fields.
     One of the classic problems for WFAs is probability distribution estimation over sequences of discrete symbols.
