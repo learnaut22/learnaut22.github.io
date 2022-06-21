@@ -69,6 +69,7 @@
   type: 'in-person'
   title: 'Learning regular non-deterministic distributions via non-linear optimization methods'
   authors: 'Wenjing Chu, Shuo Chen and Marcello Bonsangue'
+  link: 'https://drive.google.com/file/d/1VIwX_e9FdxTsDgCvBMke901-cNVRfqL_/view?usp=sharing'
   abstract: |
     Probabilistic finite automata (PFA) are recognizers of regular distributions over finite strings, a model that is widely applied in speech recognition and biological systems, for example.
     While the underlying structure of a PFA is just that of a normal automaton, it is well known that PFA with a non-deterministic underlying structure is more powerful than a deterministic one.
