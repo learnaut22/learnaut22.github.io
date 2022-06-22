@@ -29,6 +29,7 @@
   type: 'in-person'
   title: 'On the limit of gradient descent for Simple Recurrent Neural Networks with finite precision'
   authors: 'Rémi Eyraud and Volodimir Mitarchuk'
+  link: 'https://perso.univ-st-etienne.fr/er101405/documents/LearnAut_2022_Eyraud-Mitarchuk.pdf'
   abstract: |
     Despite their great practical successes, the understanding of neural network behavior is a topical research issue.
     In particular, the class of functions learnable in the context of a finite precision configuration is an open question.
