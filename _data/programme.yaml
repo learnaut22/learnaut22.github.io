@@ -109,6 +109,7 @@
   type: 'in-person'
   title: 'Learning from Positive and Negative Examples: New Proof for Binary Alphabets'
   authors: 'Jonas Lingg, Mateus de Oliveira Oliveira and Petra Wolf'
+  link: 'http://arxiv.org/abs/2206.10025'
   abstract: |
     One of the most fundamental problems in computational learning theory is the the problem of learning a finite automaton <em>A</em> consistent with a finite set <em>P</em> of positive examples and with a finite set <em>N</em> of negative examples.
     By consistency, we mean that <em>A</em> accepts all strings in <em>P</em> and rejects all strings in <em>N</em>.
