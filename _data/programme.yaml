@@ -40,6 +40,7 @@
   type: 'in-person'
   title: 'Analyzing Büchi Automata with Graph Neural Networks'
   authors: 'Christophe Stammet, Prisca Dotti, Ulrich Ultes-Nitsche and Andreas Fischer '
+  link: 'https://arxiv.org/abs/2206.09619'
   abstract: |
     Büchi Automata on infinite words present many interesting problems and are used frequently in program verification and model checking.
     A lot of these problems on Büchi automata are computationally hard, raising the question if a learning-based data-driven analysis might be more efficient than using traditional algorithms.
