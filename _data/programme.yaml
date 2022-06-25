@@ -50,6 +50,7 @@
   type: 'in-person'
   title: 'Spectral Initialization of Recurrent Neural Networks: Proof of Concept'
   authors: 'Maude Lizaire, Simon Verret and Guillaume Rabusseau'
+  link: 'https://drive.google.com/file/d/1lOWAG0kDpBG5mXsFdBp1jqWjagOCuUzP/view?usp=sharing'
   abstract: |
     We propose a new initialization method for recurrent neural networks in the context of language modelling based on their connection with weighted finite automata.
     In particular, we leverage that linear second order RNN and WFA are equivalent and that WFA can be learned consistently with the spectral learning algorithm.
