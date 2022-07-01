@@ -18,6 +18,7 @@
   type: 'online'
   title: "Extending Shinohara's Algorithm for Computing Descriptive (Angluin-Style) Patterns to Subsequence Patterns"
   authors: 'Markus L. Schmid'
+  link: 'https://arxiv.org/abs/2206.13918'
   abstract: |
     The introduction of pattern languages in the seminal work [Angluin, "Finding Patterns Common to a Set of Strings", JCSS 1980] has revived the classical model of inductive inference (learning in the limit, gold-style learning).
     In [Shinohara, "Polynomial Time Inference of Pattern Languages and Its Application", 7th IBM Symposium on Mathematical Foundations of Computer Science 1982] a simple and elegant algorithm has been introduced that, based on membership queries, computes a pattern that is descriptive for a given sample of input strings (and, consequently, can be employed in strategies for inductive inference).
