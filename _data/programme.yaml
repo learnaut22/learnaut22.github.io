@@ -176,6 +176,7 @@
   type: 'in-person'
   title: 'Marginal Inference queries in Hidden Markov Models under context-free grammar constraints'
   authors: 'Mohamed Reda Marzouk and Colin de la Higuera'
+  link: 'https://arxiv.org/abs/2206.12862'
   abstract: |
     The primary use of any probabilistic model involving a set of random variables is to run inference and sampling queries on it.
     Inference queries in classical probabilistic models is concerned by the computation of marginal or conditional probabilities of events given as an input.
