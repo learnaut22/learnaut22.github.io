@@ -61,6 +61,7 @@
   type: 'in-person'
   title: 'Robust Attack Graph Generation'
   authors: 'Dennis Mouwen, Sicco Verwer and Azqa Nadeem'
+  link: 'https://arxiv.org/abs/2206.07776'
   abstract: |
     We present a method to learn automaton models that are more robust to input modifications.
     It iteratively aligns sequences to a learned model, modifies the sequences to their aligned versions, and re-learns the model.
